@@ -24,15 +24,15 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       move: {
         enable: true,
-        speed: 2,  // Speed of movement
+        speed: 2,
         direction: "none",
         random: true,
         straight: false,
-        out_mode: "out", // Particles leave the canvas and re-enter from the opposite side
+        out_mode: "out",
         bounce: false,
       },
       line_linked: {
-        enable: false // Disable line linking
+        enable: false
       }
     },
     interactivity: {
@@ -40,21 +40,21 @@ document.addEventListener("DOMContentLoaded", function () {
       events: {
         onhover: {
           enable: true,
-          mode: "repulse"  // Particles move away from the mouse
+          mode: "repulse"
         },
         onclick: {
           enable: true,
-          mode: "push"  // Clicking adds more particles
+          mode: "push"
         },
         resize: true
       },
       modes: {
         repulse: {
-          distance: 100,  // How far particles move when hovered
+          distance: 100,
           duration: 0.5
         },
         push: {
-          particles_nb: 4  // Number of particles created on click
+          particles_nb: 4
         }
       }
     },
