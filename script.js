@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   tsParticles.load("particles-js", {
     particles: {
       number: {
-        value: 200, // Number of particles for full-screen effect
+        value: 200,
         density: {
           enable: true,
           value_area: 800
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         random: true
       },
       size: {
-        value: 4, // Small circle size
+        value: 4,
         random: true
       },
       move: {
@@ -61,3 +61,4 @@ document.addEventListener("DOMContentLoaded", function () {
     retina_detect: true
   });
 });
+
